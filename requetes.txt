@@ -1,0 +1,60 @@
+1.
+
+SELECT revenu_fiscal_moyen 
+FROM foyers_fiscaux ff 
+WHERE ville = "Montpellier"
+ORDER BY date DESC
+LIMIT 1
+
+
+2.
+
+SELECT *
+FROM transactions_sample ts 
+WHERE ville = "LYON"
+ORDER BY date_transaction DESC
+LIMIT 10
+
+
+3.
+
+SELECT COUNT(*)
+FROM transactions_sample ts 
+WHERE ville LIKE 'PARIS%'
+      AND date_transaction LIKE '2022%'
+
+
+4.
+
+
+
+
+
+
+10.
+
+SELECT ville, COUNT(*) as nb_transactions
+FROM transactions_sample ts 
+GROUP BY ville 
+ORDER BY COUNT(*) DESC
+LIMIT 10
+
+
+11.
+
+SELECT ville, AVG(prix/surface_habitable) as prix_m2_moyen
+FROM transactions_sample ts 
+WHERE type_batiment = 'Appartement' 
+GROUP BY ville
+ORDER BY prix_m2_moyen ASC
+LIMIT 10
+
+
+12.
+
+SELECT ville, AVG(prix/surface_habitable) as prix_m2_moyen
+FROM transactions_sample ts 
+WHERE type_batiment = 'Maison' 
+GROUP BY ville
+ORDER BY prix_m2_moyen DESC
+LIMIT 10
