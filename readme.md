@@ -5,6 +5,7 @@
 ### Contexte
 
 Rendu du brief en semaine 2 traitant des bases de la CLI, du langage SQL et la prise en main de git.
+
 Chaque fichier .sql contient la requête répondant à la user story indiquée dans le nom de fichier.
 
 Exemple : user_story_01.sql contient la requête correspondant à la user story 1.
