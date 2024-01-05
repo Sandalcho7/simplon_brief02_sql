@@ -10,6 +10,6 @@ Exemple : user_story_01.sql contient la requête correspondant à la user story 
 
 ### Data
 
-[Lien vers les user stories] (https://docs.google.com/spreadsheets/d/110DFqhV0eNhR1mzBkRR5DD6Aey-lgXuTlf3VeSzWD58/edit#gid=0)
+[Lien vers les user stories](https://docs.google.com/spreadsheets/d/110DFqhV0eNhR1mzBkRR5DD6Aey-lgXuTlf3VeSzWD58/edit#gid=0)
 
-[Lien vers les données à utiliser] (https://www.kaggle.com/datasets/benoitfavier/immobilier-france/data)
+[Lien vers les données à utiliser](https://www.kaggle.com/datasets/benoitfavier/immobilier-france/data)
