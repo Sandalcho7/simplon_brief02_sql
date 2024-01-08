@@ -17,36 +17,33 @@ Exemple : user_story_01.sql contient la requête correspondant à la user story 
 [Lien vers les données à utiliser](https://www.kaggle.com/datasets/benoitfavier/immobilier-france/data)
 
 ### Procédure
-
-1. Génération d'un clé SSH
+<b>1 /</b> Génération d'un clé SSH
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
-Utiliser votre email, celui ou non utilisé sur GitHub)
-<br>
-2. Ajout de la clé générée dans la page [SSH and GPG keys](https://github.com/settings/keys) de GitHub en y copiant le contenu du nouveau fichier .pub
-<br>
-3. Cloner le repository GitHub en local (se placer dans le dossier où vous souhaitez cloner votre repo)
+Utiliser votre email, celui utilisé ou non sur GitHub)
+<br><br>
+<b>2 /</b> Ajout de la clé générée dans la page [SSH and GPG keys](https://github.com/settings/keys) de GitHub en y copiant le contenu du nouveau fichier .pub
+<br><br>
+<b>3 /</b> Cloner le repository GitHub en local (se placer dans le dossier où vous souhaitez cloner votre repo)
 ```bash
 git clone https://github.com/XXXXXXXXX/git-test.git
 ```
 L'adresse https est celle de votre repository, à récupérer sur la page de ce dernier en utilisant le bouton vert "code"
-<br>
+<br><br><hr>
 Une fois la connexion établie, on peut utliser les commandes git pour travailler sur nos fichiers en local puis synchroniser avec le repo distant GitHub.
-1. Ajouter le dossier à la "surveillance" de git
+<br><br>
+<b>1 /</b> Ajouter le dossier à la "surveillance" de git
 ```bash
 git add .
 ```
 Ici, le "." permet de sélectionner tout le dossier courant.
-<br>
-2. Déclarer les modifications
+<br><br>
+<b>2 /</b> Déclarer les modifications
 ```bash
 git commit -m "Description des modifications apportées"
 ```
-<br>
-3. Envoyer les modifications déclarées sur le repo distant
-```bash
+<b>3 /</b> Envoyer les modifications déclarées sur le repo distant
+```
 git push origin main
 ```
-<br>
-Ici, origin correspond au serveur distant et main à la branche concernée par le push.
