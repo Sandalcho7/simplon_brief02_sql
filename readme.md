@@ -23,7 +23,9 @@ Exemple : user_story_01.sql contient la requête correspondant à la user story 
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 Utiliser votre email, celui ou non utilisé sur GitHub)
+<br>
 2. Ajout de la clé générée dans la page [SSH and GPG keys](https://github.com/settings/keys) de GitHub en y copiant le contenu du nouveau fichier .pub
+<br>
 3. Cloner le repository GitHub en local (se placer dans le dossier où vous souhaitez cloner votre repo)
 ```bash
 git clone https://github.com/XXXXXXXXX/git-test.git
@@ -36,12 +38,15 @@ Une fois la connexion établie, on peut utliser les commandes git pour travaille
 git add .
 ```
 Ici, le "." permet de sélectionner tout le dossier courant.
+<br>
 2. Déclarer les modifications
 ```bash
 git commit -m "Description des modifications apportées"
-``` 
+```
+<br>
 3. Envoyer les modifications déclarées sur le repo distant
 ```bash
 git push origin main
 ```
+<br>
 Ici, origin correspond au serveur distant et main à la branche concernée par le push.
