@@ -1,22 +1,17 @@
-# SIMPLON DEV IA | Brief 2
+# Introduction aux requêtes SQL
 
-## Création et exploitation de BDD PostgreSQL à destination d'une agence immobilière
+## Contexte
+Dans le cadre de ma formation de développeur en IA, simple exercice d'écriture de requêtes SQL correspondant à différentes user stories dans le contexte d'une agence immobilière.
 
-### Contexte
-
-Petit exercice sur les bases du langage SQL.
-
-### Notes
-
+## Notes
 Chaque fichier .sql contient la requête répondant à la user story indiquée dans le nom de fichier.
 
 Exemple : user_story_01.sql contient la requête correspondant à la user story 1.
 
-### Data
-
+## Data
 [Lien vers les données à utiliser](https://www.kaggle.com/datasets/benoitfavier/immobilier-france/data)
 
-### User stories
+## User stories
 ```md
 01 / En tant qu'agent, je veux consulter le revenu fiscal moyen des foyers de ma ville (Montpellier)
 
